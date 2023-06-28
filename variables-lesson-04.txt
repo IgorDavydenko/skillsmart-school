@@ -1,0 +1,12 @@
+List<ValidationError> result -> validationErrorList
+io.grpc.ServiceDescriptor result -> serviceDescriptor
+programs.forEach(p -> program
+Object result -> objectJson
+List<DataField> result = new ArrayList<>(); -> dataFieldList
+String result = delegate.get(carrier, key); -> currentCorrId
+private Boolean result; -> isExpressionSuccess
+final var result = new StringBuilder(PATH_PREFIX); -> computedPathBuilder
+final var errors = new BeanPropertyBindingResult -> validationErrors
+final var fullSum -> acquisitionSum
+private String min -> minOccurs
+private String max -> maxOccurs
