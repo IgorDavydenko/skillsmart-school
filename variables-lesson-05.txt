@@ -1,0 +1,10 @@
+3.1
+Проект с использованием REST реализует MVC с классическими именами классов Entity-Controller-Service.
+В нем затесалось только два класса с другими названиями, видимо остались со времен MVP
+RuleHandler -> RuleService
+TemplateFieldHandler -> TemplateFieldService
+Есть помимо Conroller и использование слов Manager, но это классы из пакета Spring AuthenticationManager, BasicHttpClientConnectionManager. От этого никуда не деться
+
+3.2
+В проекте с использованием REST классы Service построены на реализации интерфейсов и поэтому имеют одинаковые имена методов для основных действий с данными и работы с БД - create, update, save
+В проекте с gRPC - имена методов приходят из proto внешних сервисов и выбирать имена нет возможности
