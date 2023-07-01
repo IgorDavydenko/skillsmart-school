@@ -1,0 +1,12 @@
+isCompatibleAgreementValueType() - isValidAgreementValueType() - хорошее и понятное интуитивно слово valid вместо совместимый
+glueSpelExpression() - buildSpelExpression() - слово build знакомо и понятно разработчику, по сравнению с каким-то склеиванием
+parse() - parseExpression() - метод parseExpression public, parse private. Сигнатура меняется, так что просто переопределение метода. Назачем сокращать
+getActualPublishedTemplateEntities() - getPublishedTemplates() - список опубликованных документов. Не актуальных не бывает, метод возвращает все
+getPassportZero() - getAllPassportZero() - метод возвращал список, из названия следовало что 1 экземпляр
+
+в основном методы названы классически
+publishDirection
+getDirectionList
+getTemplateDirection
+getTemplatesByDirection
+saveTemplateDirection
