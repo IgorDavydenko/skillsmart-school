@@ -1,0 +1,9 @@
+3.1
+Map map = Map.HashMapWithCapacity(10)
+RuntimeException ex = BusinessException.PassportWithMessage("message")
+Notification message = Notification.InfoWithCorrIdAndMsg("GUID", "message")
+
+3.2
+DictionaryClient -> DictionaryClientImpl
+TracingService -> TracingServiceImpl
+MinioClient -> MinioClientImpl
