@@ -1,0 +1,12 @@
+Pattern DATE_TIME_PATTERN - паттерн для валидации даты и времени
+Pattern DATE_PATTERN - паттерн для валидации даты
+int MAX_LOG_LENGTH - максимальный размер лога
+String PATH_PREFIX - префикс используемый для формирования пути
+String CORRELATION_ID_NAME - имя поля для логирования
+String INITIAL_VERSION - если документ выпускается впервые, то инициализируем его первой версией
+String NOT_FOUND_BY_TECH_NAME - шаблон текста ошибки
+List<AttributeType> GROUP_ATTRIBUTES - список атрибутов
+String DATE_PATTERN - шаблон даты используемый внешним приложением для конвертации
+String FIELD_CONCLUSION_DATE - имя ключевого поля для поиска данных
+String APPLICATION_NAME - имя приложения
+int DICTIONARY_SIZE_MAX - максимальное кол-во элементов которые мы хотим получить в ответе от внешнего сервиса
