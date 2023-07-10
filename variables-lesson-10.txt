@@ -1,0 +1,15 @@
+if (!Objects.equals(attribute.getType(), AttributeType.DICTIONARY)) -> проверка типа. Если это словарь, то спец. обработка
+if (ObjectUtils.notEqual(sourceAttribute.getTitle(), targetAttribute.getTitle())) - проверка неизменности поля title
+if (ObjectUtils.notEqual(sourceAttribute.getTechName(), targetAttribute.getTechName())) - проверка неизменности поля techName
+if (ObjectUtils.notEqual(sourceEven.getTitle(), targetEvent.getTitle())) {
+if (sourceRule.getStartDate().compareTo(foundedRule.getStartDate()) >= 0 && sourceRule.getStartDate().compareTo(foundedRule.getEndDate()) <= 0) - проверяем что события не пересекаются (фрагмент)
+if (acquisitionSum.compareTo(MAX_ACQUISITION_SUM) > 0) - проверяем что сумма полей не выше значения
+if (program.getType() == ProgramType.DIRECTION) - проверяем что поле определенного типа, иначе нельзя добавлять поля
+if (validatedPath.startsWith(PREFIX_TEMPLATE_PATH)) - валидируем имя поля
+if (Boolean.TRUE.equals(idExtractor.extractIds(program).stream().anyMatch(id -> Objects.equals(id, parentId)) - проверяем циклическую зависимость классов
+if (Arrays.stream(fields).map(beanWrapper::getPropertyValue).anyMatch(Objects::nonNull)) - проверка что поле не Null
+if (REQUIRED_EMPTY_PATHS.contains(limitation.getType()) && CollectionUtils.isEmpty(limitation.getDependPaths())) - если поле входит в список и при этом значение определенного поля пустое
+if (maxOccurs == null && minOccurs == null) - проверка что поля заполнены
+values.size() - uniqueValues.size() == countNullValues - проверка что все поля уникальны
+if (response.getStatus().equals(Status.SUCCESS)) - проверяем статус ответа от внешней системы
+AGREEMENT_TYPE_NUMBER: if (StringUtils.isNotEmpty(agreementData.getAgreementNumber())) break; - проверяем что в зависимости от типа поля, заполнено другое поле
