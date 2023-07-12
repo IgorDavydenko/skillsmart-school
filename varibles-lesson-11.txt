@@ -1,0 +1,15 @@
+final var templateLimitationEntity = new TemplateLimitationEntity() - создаем переменную внутри метода convertToEntity которая и будет ответом
+final var programLimitation = new ProgramLimitationEntity() - создаем переменную внутри метода convertToEntity которая и будет ответом
+final var patternIfLimitation = (PatternIfLimitation) limitation - создаем переменную внутри метода convertToEntity которая и будет ответом
+final var target = new ProgramRestrictionResponse() - создаем переменную внутри метода convertToEntity которая и будет ответом
+final var instant = dateTime.toInstant(ZoneOffset.UTC) - переменная внутри метода для получения текущей даты и последующей проверки истечения даты действия параметров
+final var pageable = PageUtils.createPageable(pageNumber, pageSize, sortProperties) - переменная для пагинации внутри метода
+final var filterParams = FilterUtils.parseFilter(filter) - переменная для пагинации внутри метода
+final var title = attribute.getTitle() - переменная для обработки поля внутри отдельного метода
+final var type = attribute.getType() - переменная для обработки поля внутри отдельного метода
+final var children = currentNode.getChildren() - переменная внутри вызова рекурсивного метода для последующего вызова рекурсии
+if (error.getField() != null) {final var field = error.getField(); - переменная внутри if для обработки ошибок
+for (var oldField : oldFields) { boolean allowSupAgreement = oldField.getAtt().getAllowSupAgreement(); - переменная для анализа договора внутри if
+for (String value : values) {DataField field = DataField.builder() - переменная внутри for
+for (Program program : template.getPrograms()) {List<Integer> indexes = programIndexes.getOrDefault(program, List.of());  - переменная внутри for
+for (int i = 0; i < maxSize; i++) {String path = String.format("$.insurancePrograms[%s].id", i);  - переменная внутри for
