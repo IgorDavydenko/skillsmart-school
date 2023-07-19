@@ -1,0 +1,17 @@
+Пришло разбираться в чужом коде и по пути коментировал переменные и методы
+private final DocumentContext agreementDataCtx; // договор в виде json
+private final Map<Program, List<Integer>> programIndexes = new IdentityHashMap<>(); // хранит индексы на которых программа используется в договоре
+// возвращает пути к атрибутам шаблонов и программ, доступные в договоре
+private Map<String, ValidationObject> getAllValidationObjects(TemplateInfo.Template template) {
+// формат ответа универсальный для всех справочников. Чтобы вытащить имя записи - перебираем ответ на непустую запись
+public List<DictionaryValueModel> findDictionaryValues(final String dictionaryName) {
+GROUP = 11; // Групповой || Есть дочерние атрибуты, пример: марки/модели
+// если обновляем существующее правило не изменяя дат - коллизии нет
+    if (sourceRule.getStartDate().equals(targetRule.getStartDate())
+        && sourceRule.getEndDate().equals(targetRule.getEndDate())
+    ) return;
+
+Здесь можно изменить послений метод выносом в переменную расчет булева выражения. К виду
+if (isDateCollision) {}
+boolean isDateCollision = sourceRule.getStartDate().equals(targetRule.getStartDate()) && sourceRule.getEndDate().equals(targetRule.getEndDate()
+Стало намного приятнее и очевиднее выглядеть вместо коментария
