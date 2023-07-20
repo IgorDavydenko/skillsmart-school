@@ -1,0 +1,14 @@
+// TODO: выкинуть переменную, актуально кол-во использований программы мы храним в мапе
+int maxSize = 0; - 6. Комментарии TODO
+// 2012-12-12T12:12:12Z: milliseconds since Epoch
+private static final Long STUB_DATE_IN_MS = 1355314332000L; - 1. Информативные комментарии
+// паттерн пути для поиска программ PROGRAM.XX
+public static final Pattern PROGRAM_PATH_PATTERN =Pattern.compile("^(PROGRAM)\\.([1-9][0-9]*)\\."); - 1. Информативные комментарии
+// паттерн для валидации поля title - начинается с заглавной русской буквы
+public static final String CONSTRAINT_TITLE_REGEX = "^[A-ZА-ЯЁ].*"; - 1. Информативные комментарии
+// паттерн для валидации поля techName - должно состоять из заглавный латинских букв
+public static final String CONSTRAINT_TECH_NAME_REGEX = "^[A-Z]([A-Z_\\d]*)+$"; - 1. Информативные комментарии
+// Нужно для работы Process Test Coverage 
+public class ProcessEngineConfigurationPlugin extends AbstractCamundaConfiguration { - 4. Предупреждения о последствиях + 5. Усиление
+//Без этого бина падает автоконфигурация kafkaTemplatepublic 
+ProducerFactory<Object, Object> producerFactory() { - 4. Предупреждения о последствиях
